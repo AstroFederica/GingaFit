@@ -8,7 +8,11 @@ As showed in the example Jupyter Notebooks, the user needs to create an instance
 - output folders;
 - psf-stamp size, pixel scale, magnitude zeropoint, exposure time, NCOMBINE.
 
-All the outputs will be authomatically stored in the indicated output folders. The code can be run sequentially (see Jupyter notebooks) or in parallel, using the scripts pipeline_DES_parallel_script.py and pipeline_HST_parallel_script.py . The example datasets (from public releases of HST and the Dark Energy Survey) can be downloaded following the link in the readme file dave in the Data folder.
-The output folders will include several models for parametric fitting, plus python scripts to run then with Galfit either sequencially or in parallel.
+The code can be run sequentially (see Jupyter notebooks) or in parallel, using the scripts pipeline_DES_parallel_script.py and pipeline_HST_parallel_script.py . 
+All the outputs will be authomatically stored in the indicated output folders. They will include the derived images and several models for parametric fitting, plus python scripts to run then with Galfit either sequencially or in parallel.
+
+Before running GingaFit:
+- The example datasets (from public releases of HST and the Dark Energy Survey) can be downloaded following the link in the readme file dave in the Data folder;
+- Install the required python packages using pip install -r requirements.txt
 
 For further information, please contact the author, federica.tarsitano@unige.ch . Thank you!
