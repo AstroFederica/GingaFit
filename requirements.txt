@@ -1,5 +1,5 @@
 astropy
 galsim
 multiprocess
-glob
+glob2
 numpy
